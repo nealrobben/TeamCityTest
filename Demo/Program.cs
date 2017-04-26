@@ -10,7 +10,7 @@ namespace Demo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Press any key to continue...");
+            Console.WriteLine($"Press any key to continue...");
             Console.ReadKey();
         }
     }
