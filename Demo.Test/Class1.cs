@@ -19,7 +19,7 @@ namespace Demo.Test
         [Fact]
         public void PassingTest3()
         {
-            Assert.Equal(4, Add(1, 2));
+            Assert.Equal(4, Add(1, 3));
         }
 
         [Fact]
@@ -37,13 +37,13 @@ namespace Demo.Test
         [Fact]
         public void PassingTest6()
         {
-            Assert.Equal(8, Add(5, 2));
+            Assert.Equal(8, Add(5, 3));
         }
 
         [Fact]
         public void PassingTest7()
         {
-            Assert.Equal(8, Add(4, 3));
+            Assert.Equal(8, Add(4, 4));
         }
 
         [Fact]
