@@ -10,6 +10,12 @@ namespace Demo.Test
             Assert.Equal(4, Add(2, 2));
         }
 
+        [Fact]
+        public void PassingTest2()
+        {
+            Assert.Equal(4, Add(3, 1));
+        }
+
         //[Fact]
         //public void FailingTest()
         //{
