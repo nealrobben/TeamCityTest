@@ -34,6 +34,12 @@ namespace Demo.Test
             Assert.Equal(8, Add(7, 1));
         }
 
+        [Fact]
+        public void PassingTest6()
+        {
+            Assert.Equal(8, Add(5, 2));
+        }
+
         //[Fact]
         //public void FailingTest()
         //{
